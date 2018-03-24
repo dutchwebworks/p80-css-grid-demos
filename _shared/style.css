@@ -5,6 +5,7 @@ body {
 	color: black;
 }
 
+body,
 h1, 
 h2, 
 h3, 
@@ -26,5 +27,9 @@ h6,
 .sub-title {
 	font-size: 32px;
 	font-weight: 300;
+	color: deepskyblue;
+}
+
+a {
 	color: deepskyblue;
 }

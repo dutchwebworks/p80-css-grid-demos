@@ -2,13 +2,60 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-	<link href="../shared/style.css" rel="stylesheet" type="text/css">
+	<link href="../css/shared.css" rel="stylesheet" type="text/css">
 	<link href="style.css" rel="stylesheet" type="text/css" >
 	<title>Poort80 - W3C CSS Grid demo</title>
 </head>
 <body>
-	<h1 class="title">CSS Grid</h1>
-	<h1 class="sub-title">CSS Grid</h1>
+	<section class="grid-container">
+		<header class="header">
+			<nav>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="sidebar">
+			<h4 class="sub-title">Sidebar</h4>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, praesentium!</p>
+			<p>Quae mollitia enim, reprehenderit, ipsa voluptatibus officiis placeat nemo molestiae.</p>
+		</div>
+
+		<main class="content">
+			<h1 class="title">Basic site layout</h1>
+
+			<h2 class="sub-title">Using CSS Grid explicit placement</h2>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dignissimos nemo officia, nam cupiditate nisi assumenda expedita, rerum recusandae nulla.</p>
+			
+			<p>Perspiciatis molestias facere itaque, ducimus nihil cum dicta illo officia unde a dignissimos voluptas aliquam, adipisci autem repudiandae laborum fuga.</p>
+				
+			<h2 class="sub-title">And a Flexbox fallback</h2>
+
+			<p>Repudiandae explicabo expedita praesentium quo deserunt possimus quasi cum nesciunt sunt illum voluptates sequi ipsa, debitis eveniet, dignissimos, consequatur omnis.</p>
+			
+			<p>Voluptate rem deleniti impedit dignissimos accusantium, sequi, consequatur temporibus nostrum repellendus voluptatem necessitatibus libero! Porro, sit tempore possimus voluptatum. Id.</p>
+		</main>
+
+		<aside class="ads">
+			<h4 class="sub-title">Related content</h4>
+
+			<img src="http://via.placeholder.com/350x150" alt="Dummy">
+
+			<h4 class="sub-title">Our best products</h4>
+
+			<img src="http://via.placeholder.com/350x150" alt="Dummy">
+		</aside>
+
+		<footer class="footer">
+			<p>&copy; Web site name, 2018</p>
+		</footer>
+	</section>
 </body>
 </html>

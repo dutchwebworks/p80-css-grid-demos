@@ -1,0 +1,28 @@
+body {
+	margin: 40px;
+}
+
+blockquote {
+	margin: 0;
+}
+
+code {
+	white-space: pre;
+	font-size: 26px;
+	padding: 20px;
+}
+
+.grid-container {	
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, 250px);
+	padding-left: 0;
+}
+
+.grid-container li {
+	list-style: none;
+}
+
+.grid-container img {
+	border-radius: 10px;
+}

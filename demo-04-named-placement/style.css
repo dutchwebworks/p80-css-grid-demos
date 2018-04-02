@@ -11,7 +11,7 @@ body {
 	grid-gap: 20px;	
 }
 
-@media(min-width: 600px) {
+@media(min-width: 768px) {
 	.grid-container {
 		display: grid;
 		grid-template-columns: 100px 1fr 1fr 200px;
@@ -23,7 +23,7 @@ body {
 	}
 }
 
-@media(min-width: 1200px) {
+@media(min-width: 1024px) {
 	.grid-container {
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-areas: 
@@ -35,7 +35,7 @@ body {
 	}
 }
 
-@media(min-width: 1400px) {
+@media(min-width: 1200px) {
 	.grid-container {
 		grid-template-areas: 
 			"header header header header"
@@ -58,7 +58,7 @@ body {
 	border-radius: 10px;
 }
 
-@media(min-width: 600px) {
+@media(min-width: 768px) {
 	.grid-container > div {
 		margin-bottom: 0;
 	}

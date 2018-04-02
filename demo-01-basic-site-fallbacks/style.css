@@ -6,14 +6,21 @@
 	-ms-grid-rows: auto 1fr auto;
 	grid-gap: 20px;
 	max-width: 1024px;
-	margin: 40px auto 0;
+	margin: 40px 20px 0;
 }
 
 @media(min-width: 1024px) {
 	.grid-container {
 		display: flex;
 	 	display: -ms-grid;
-		display: grid; 
+		display: grid;
+	}
+}
+
+@media(min-width: 1200px) {
+	.grid-container {
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 

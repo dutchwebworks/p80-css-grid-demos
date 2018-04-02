@@ -1,0 +1,61 @@
+header,
+footer ,
+.promo {
+	margin: 0;
+	padding: 20px;
+	color: white;
+	border-radius: 10px;
+}
+
+header {	
+	background-color: deeppink;
+}
+
+footer {
+	color: white;
+	background-color: deepskyblue;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+nav ul {
+	display: flex;
+	margin: 0 0 20px 0;
+	padding: 0 0 20px 0;
+	border-bottom: 2px solid #ccc;
+}
+
+nav li {
+	margin: 0;
+	list-style: none;
+}
+
+nav ul li + li {
+	margin-left: 20px;
+}
+
+nav a {
+	font-weight: 700;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: deeppink;
+	text-decoration: none;
+}
+
+.promo {
+	padding: 40px 20px;
+	background-color: #ff8e14;
+}
+
+.promo h3 {
+	font-size: 62px;
+	font-weight: 300;
+	color: white;
+	text-align: center;
+}

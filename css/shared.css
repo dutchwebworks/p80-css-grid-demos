@@ -38,3 +38,28 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #ccc;
+	margin-top: 20px;
+	padding-top: 0px;
+}
+
+.footer,
+.footer a {
+	color: #444;
+    font-size: 14px;
+	font-weight: 300;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+.footer__body a:hover {
+    color: #ff1493;
+}
+
+.footer__body {
+	margin-top: 0px;
+    padding-top: 10px;    
+}

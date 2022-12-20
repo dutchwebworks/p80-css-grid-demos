@@ -1,6 +1,6 @@
 # Poort80 - W3C CSS Grid demos
 
-*By Dennis Burger, march 2018, Poort80 Amsterdam*
+*By Dennis Burger, March 2018, Poort80 Amsterdam*
 
 |Resource|URL|
 |:---|:---|
